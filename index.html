@@ -1,15 +1,47 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <!-- <meta charset="UTF-8"> -->
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
+    <!-- 引入外部CSS文件 (外链式)-->
+    <link rel="stylesheet" href="type.css">
+    <!-- 内嵌式引入JavaScript -->
+    <!-- <script>
+        // for(let i=0;i<500;i++){
+        //     console.log('控制台打印：个人简历项目');
+        //     console.log(i);
+        // }
+
+        let i =0;
+        setInterval(() => {
+            console.log('控制台打印：个人简历项目');
+            i++;
+        }, 1000);
+     </script> -->
+    <!-- 引入外部JavaScript文件 (外链式)-->
+    <!-- <script src="type.js"></script> -->
 </head>
+
 <body>
-    <p>姓名：陈航宇</p>
-    <p>籍贯：广东惠州</p>
-    <p>邮箱：1893328313@163.com&emsp;&emsp;&emsp;电话：18933283143</p>
-    <p>兴趣爱好：骑自行车</p>
-    <p>项目：人工智能</p>
+    <div class="father">
+        <img src="Snipaste_2026-09-11_19-46-27.png" alt="" class="son">
+        <div class="son2">
+            <ul>
+                <li>姓名：陈航宇</li>
+                <li>籍贯：广东惠州</li>
+                <li>邮箱：1893328313@163.com</li>
+                <li>电话：18933283143</li>
+                <li>兴趣爱好：骑自行车</li>
+                <li>项目：人工智能</li>
+            </ul>
+        </div>
+        <div class="son3">
+            <!-- 行内式引入JavaScript 一般不推荐-->
+            <input type="button" value="提交" onclick="alert('提交成功')">
+        </div>
+    </div>
 </body>
+
 </html>
